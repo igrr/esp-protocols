@@ -1,0 +1,11 @@
+dependencies:
+  espressif/esp_websocket_client:
+    version: "^1.0.1"
+    override_path: ../../../
+  protocol_examples_common:
+    path: ${IDF_PATH}/examples/common_components/protocol_examples_common
+  cmd_nvs:
+    path: ${IDF_PATH}/examples/system/console/advanced/components/cmd_nvs
+  cmd_system:
+    path: ${IDF_PATH}/examples/system/console/advanced/components/cmd_system
+  idf: ">=5.0"
